@@ -4,7 +4,8 @@
     "print.less",
     "type.less",
     "code.less",
-    "grid.less"
+    "grid.less",
+    "alerts.less"
   ],
   "js": []
 }
