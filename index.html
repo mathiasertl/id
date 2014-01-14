@@ -55,13 +55,18 @@
       </div>
 
       <a id="smime"></a><h3>S/MIME</h3>
-      <p>All my E-Mails are signed with an S/MIME certificate with the following fingerprints:</p>
+      <p>
+        Most of my E-Mails are signed with an S/MIME certificate with the following fingerprints:
+      </p>
       <ul>
         <li>md5: <code>EF:4A:12:FB:9A:D3:76:F5:79:C1:CC:71:66:8C:A1:8A</code></li>
         <li>sha1: <code>3C:D4:BE:A7:BB:ED:E9:41:26:55:D0:C8:0B:26:74:4C:6E:62:1D:09</code></li>
         <li>sha256: <code>95:85:BD:54:E7:D6:11:EA:A6:86:6A:22:FC:14:AD:0C:06:CA:AD:B7:55:07:08:F2:A4:FD:05:7B:2B:30:C3:14</code></li>
         <li>sha512: <code>A8:8B:E8:77:E5:6B:B2:63:56:10:B5:AC:7A:F3:2D:B6:4C:FD:C2:38:FA:D9:2E:0E:74:EC:25:F0:BD:BC:81:83:54:7C:F8:4B:78:AF:9B:D8:82:44:65:0C:4D:E0:11:7A:D2:FC:82:B0:B4:35:F9:A1:94:23:E5:D4:84:56:D6:6C</code></li>
       </ul>
+
+      If an E-Mail is not signed with this key, it should at least be signed with GnuPG (see
+      below).
 
       <a id="gnupg"></a><h3>GnuPG</h3>
       <p>
@@ -72,6 +77,18 @@
         <li>Key ID: <code>FA3947CD</code></li>
         <li>Fingerprint: <code>E817 2F29 40EA 9F70 9842  2908 70BD 9664 FA39 47CD</code></li>
       </ul>
+
+      <p>
+        Additionally, I have a second GnuPG key I use on some remote hosts. Since its more likely
+        that the host is compromised, less trust should be given to it (and it is hence only valid
+        for at most a year). The key is used for E-Mail and Jabber/XMPP:
+      </p>
+      <ul>
+        <li>Key ID: <code>D792B1D9</code></li>
+        <li>Fingerprint: <code>73D8 904C 7230 B6BD ACFB  412D 0B36 C59B D792 B1D9</code></li>
+      </ul>
+
+
 
       <a id="otr"></a><h3>Off-the-Record Messaging</h3>
       <p>
