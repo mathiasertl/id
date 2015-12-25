@@ -60,10 +60,9 @@
         E-Mails are usually signed using S/MIME. The certificate has the following fingerprints:
       </p>
       <ul>
-        <li>md5: <code>EF:4A:12:FB:9A:D3:76:F5:79:C1:CC:71:66:8C:A1:8A</code></li>
-        <li>sha1: <code>3C:D4:BE:A7:BB:ED:E9:41:26:55:D0:C8:0B:26:74:4C:6E:62:1D:09</code></li>
-        <li>sha256: <code>95:85:BD:54:E7:D6:11:EA:A6:86:6A:22:FC:14:AD:0C:06:CA:AD:B7:55:07:08:F2:A4:FD:05:7B:2B:30:C3:14</code></li>
-        <li>sha512: <code>A8:8B:E8:77:E5:6B:B2:63:56:10:B5:AC:7A:F3:2D:B6:4C:FD:C2:38:FA:D9:2E:0E:74:EC:25:F0:BD:BC:81:83:54:7C:F8:4B:78:AF:9B:D8:82:44:65:0C:4D:E0:11:7A:D2:FC:82:B0:B4:35:F9:A1:94:23:E5:D4:84:56:D6:6C</code></li>
+          <li>sha1: <code>E6:31:0A:99:12:E4:69:EE:B0:65:35:92:76:8F:29:A2:D7:62:AE:21</code></li>
+          <li>sha256:
+              <code>AA:BE:8D:27:84:1E:4F:77:6A:58:F2:68:55:5A:A5:05:91:39:58:4A:9D:BB:B9:06:E4:73:C5:75:92:A3:03:27</code></li>
       </ul>
 
       E-Mails are always signed with S/MIME except if you specifically require GnuPG (1st key
@@ -92,25 +91,29 @@
         <li>Fingerprint: <code>73D8 904C 7230 B6BD ACFB  412D 0B36 C59B D792 B1D9</code></li>
       </ul>
 
-
-
-      <a id="otr"></a><h3>Off-the-Record Messaging</h3>
-      <p>
-        Off-the-Record (OTR) Messaging is available via Jabber/XMPP. Because I use multiple clients
-        on different machines, you may encounter multiple keys:
-      </p>
-      <ul>
-          <li><code>17708AFD A10AE972 F8057908 DF5FE9C2 11F3D174</code></li>
-          <li><code>D79314F0 37341CAF A4DC7C9D 89838CF1 B9DA55CC</code></li>
-          <li><code>3C753FC6 E881C943 14B6FC20 C0E979B9 2CF9D596</code></li><!-- mcabber -->
-      </ul>
-
-
       <a id="deprecated"></a><h3>Deprecated</h3>
       <p>A short, certainly incomplete list of stuff I don't use anymore:</p>
       <ul>
         <li>GitHub: <a href="https://github.com/matigit">matigit</a> (until 2013-12-22)</li>
         <li>GnuPG: <code>1D503977</code> (until 2013-12-01) (<a href="/0x1D503977.pub">download</a>)</li>
+        <li>OTR via Jabber/XMPP (just unusable):
+            <ul>
+              <li><code>17708AFD A10AE972 F8057908 DF5FE9C2 11F3D174</code></li>
+              <li><code>D79314F0 37341CAF A4DC7C9D 89838CF1 B9DA55CC</code></li>
+              <li><code>3C753FC6 E881C943 14B6FC20 C0E979B9 2CF9D596</code></li><!-- mcabber -->
+            </ul>
+        </li>
+        <li>S/MIME certificates:
+            <ul>
+                <li>from 2013-12-25 until 2015-12-25:
+                  <ul>
+                    <li>sha1: <code>3C:D4:BE:A7:BB:ED:E9:41:26:55:D0:C8:0B:26:74:4C:6E:62:1D:09</code></li>
+                    <li>sha256: <code>95:85:BD:54:E7:D6:11:EA:A6:86:6A:22:FC:14:AD:0C:06:CA:AD:B7:55:07:08:F2:A4:FD:05:7B:2B:30:C3:14</code></li>
+                    <li>sha512: <code>A8:8B:E8:77:E5:6B:B2:63:56:10:B5:AC:7A:F3:2D:B6:4C:FD:C2:38:FA:D9:2E:0E:74:EC:25:F0:BD:BC:81:83:54:7C:F8:4B:78:AF:9B:D8:82:44:65:0C:4D:E0:11:7A:D2:FC:82:B0:B4:35:F9:A1:94:23:E5:D4:84:56:D6:6C</code></li>
+                  </ul>
+                </li>
+            </ul>
+        </li>
       </ul>
 
     </div><!--container-->
