@@ -13,13 +13,12 @@
         <h1>Mathias Ertl: Digital identity</h1>
       </div>
       <p>
-        This page lists usernames of various websites as well as signatures of various
-        cryptographic keys. The former allows you to decide if an account on a website really
-        belongs to me, the latter allows you to verify that you are indeed communicating with me.
+        This page lists usernames of various websites as well as signatures of
+        various cryptographic keys. 
       </p>
-      <p>
-        If you find accounts that do not belong to me or have reason to believe that someone
-        attempts to communicate in my name, please contact me immediately.
+      <p class="alert alert-danger">
+        If you have reason to believe someone is trying to impersonate me,
+        please contact me right away.
       </p>
 
       <p>
@@ -39,8 +38,12 @@
       <ul>
         <li>Twitter: <a href="https://twitter.com/mathiasertl">@mathiasertl</a></li>
         <li>github: <a href="https://github.com/mathiasertl">mathiasertl</a></li>
-        <li>Flattr: <a href="https://flattr.com/profile/mathiasertl">mathiasertl</a></li>
       </ul>
+
+      <div class="alert alert-warning">
+        <strong>Facebook:</strong> No, I don't have Facebook. If you find an account that
+        looks like it belongs to me it is most certainly an impersonation!
+      </div>
 
       Some websites I barely use. Don't expect too much activity here, but feel free to add me to
       your Network:
@@ -48,47 +51,28 @@
           <li>Google+: <a href="https://plus.google.com/u/0/114826228375476404491/">Mathias Ertl</a></li>
           <li>Xing: <a href="https://www.xing.com/profiles/Mathias_Ertl">Mathias Ertl</a></li>
           <li>LinkedIn: <a href="https://www.linkedin.com/pub/mathias-ertl/45/a91/a76">Mathias Ertl</a></li>
+          <li>Flattr: <a href="https://flattr.com/profile/mathiasertl">mathiasertl</a></li>
       </ul>
 
-      <div class="alert alert-warning">
-        <strong>Facebook:</strong> I don't have a Facebook account. If you find an account that
-        looks like it belongs to me it is most certainly an impersonation!
-      </div>
-
-      <a id="smime"></a><h3>S/MIME</h3>
-      <p>
-      E-Mails are usually signed using S/MIME. The certificate 
-      (<a href="/files/MathiasErtl2015.pem">download</a>) has the following fingerprints:
-      </p>
-      <ul>
-          <li>sha1: <code>E6:31:0A:99:12:E4:69:EE:B0:65:35:92:76:8F:29:A2:D7:62:AE:21</code></li>
-          <li>sha256:
-              <code>AA:BE:8D:27:84:1E:4F:77:6A:58:F2:68:55:5A:A5:05:91:39:58:4A:9D:BB:B9:06:E4:73:C5:75:92:A3:03:27</code></li>
-      </ul>
-
-      E-Mails are always signed with S/MIME except if you specifically require GnuPG (1st key
-      below) or if I send the message from a remote host (2nd key below - will not happen for
-      important messages).
 
       <a id="gnupg"></a><h3>GnuPG</h3>
       <p>
-        I use <a href="#smime">S/MIME</a> by default for E-Mails, but GnuPG is available upon
-        request. You can also encrypt messages via Jabber/XMPP to this key
-        (<a href="/0xE8172F2940EA9F709842290870BD9664FA3947CD.pub">download</a>):
+        My primary GPG key (<a
+            href="/0xE8172F2940EA9F709842290870BD9664FA3947CD.pub">download</a>)
+        is used for most emails and Jabber/XMPP connections:
       </p>
       <ul>
-        <li>Key ID: <code>FA3947CD</code></li>
         <li>Fingerprint: <code>E817 2F29 40EA 9F70 9842  2908 70BD 9664 FA39 47CD</code></li>
       </ul>
 
       <p>
-        Additionally, I have a second GnuPG key I use on some remote hosts. Since its more likely
-        that the host is compromised, less trust should be given to it (and it is hence only valid
-        for at most a year). The key is used for E-Mail and Jabber/XMPP
-        (<a href="/0x73D8904C7230B6BDACFB412D0B36C59BD792B1D9.pub">download</a>):
+        A second GnuPG key (<a
+            href="/0x73D8904C7230B6BDACFB412D0B36C59BD792B1D9.pub">download</a>):
+        is used on some remote hosts. Since its more likely
+        that the host is compromised, less trust should be given to this (and
+        it is hence only valid for at most a year).
       </p>
       <ul>
-        <li>Key ID: <code>D792B1D9</code></li>
         <li>Fingerprint: <code>73D8 904C 7230 B6BD ACFB  412D 0B36 C59B D792 B1D9</code></li>
       </ul>
 
@@ -106,12 +90,19 @@
         </li>
         <li>S/MIME certificates:
             <ul>
+                <li>from 2015-12-25 until 2016-09-18 (<a
+                    href="/files/MathiasErtl2015.pem">download</a>):
+                  <ul>
+                    <li>sha1: <code>E6:31:0A:99:12:E4:69:EE:B0:65:35:92:76:8F:29:A2:D7:62:AE:21</code></li>
+                    <li>sha256:
+                      <code>AA:BE:8D:27:84:1E:4F:77:6A:58:F2:68:55:5A:A5:05:91:39:58:4A:9D:BB:B9:06:E4:73:C5:75:92:A3:03:27</code></li>
+                  </ul>
+                </li>
                 <li>from 2013-12-25 until 2015-12-25 (<a
                                                                 href="/files/MathiasErtl2013.pem">download</a>):
                   <ul>
                     <li>sha1: <code>3C:D4:BE:A7:BB:ED:E9:41:26:55:D0:C8:0B:26:74:4C:6E:62:1D:09</code></li>
                     <li>sha256: <code>95:85:BD:54:E7:D6:11:EA:A6:86:6A:22:FC:14:AD:0C:06:CA:AD:B7:55:07:08:F2:A4:FD:05:7B:2B:30:C3:14</code></li>
-                    <li>sha512: <code>A8:8B:E8:77:E5:6B:B2:63:56:10:B5:AC:7A:F3:2D:B6:4C:FD:C2:38:FA:D9:2E:0E:74:EC:25:F0:BD:BC:81:83:54:7C:F8:4B:78:AF:9B:D8:82:44:65:0C:4D:E0:11:7A:D2:FC:82:B0:B4:35:F9:A1:94:23:E5:D4:84:56:D6:6C</code></li>
                   </ul>
                 </li>
             </ul>
