@@ -1,5 +1,2 @@
-*.pyo
-*.pyc
-*.swp
-*.swo
-Makefile
+*.py[oc]
+*.sw[a-z]
